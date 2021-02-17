@@ -3,7 +3,6 @@ import React, { useEffect } from "react";
 import Characters from "./components/characters";
 import { getCharacter } from "./actions/index";
 import { connect } from "react-redux";
-import Character from "./components/characters";
 
 function App(props) {
   useEffect(() => {

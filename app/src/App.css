@@ -53,3 +53,46 @@
     transform: rotate(360deg);
   }
 }
+@media screen and (max-width: 680px) {
+  .App {
+    text-align: center;
+  }
+
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .App-link {
+    color: #61dafb;
+  }
+  .cardContainer {
+    border: 1px solid blue;
+    box-sizing: border-box;
+    padding: 1.1rem;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+  .cards {
+    border: 1px solid red;
+    box-sizing: border-box;
+    padding: 1.5rem;
+    background-color: rgb(215, 249, 250);
+    color: black;
+  }
+  .cards:hover {
+    background-color: rgb(88, 156, 88);
+  }
+}
